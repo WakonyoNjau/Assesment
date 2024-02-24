@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #f2f2f2;
+
+}
+header{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.navbar{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar .logo a{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+header a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    height: 100%;
+    padding: 20px 0;
+    /*display: inline-block;*/
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    /*text-align: left;*/
+
+}
+header a:hover{
+    color: #ddd;
+}
+.Home{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("home-bg.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.Home .Content{
+    display: flex;
+    height: 55%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Home .Content h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.Home .Content .text {
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.Content a{
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 10px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 30 10px;
+    transition: 0.4s ease;
+    text-decoration: none;
+
+}
+.Content a hover{
+    color: #ffffff;
+    background: rgba(255,255,255,0.3);
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+}
+
+section .cards .card{
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc (100% / 3 - 30px);
+    text-align: center;
+
+}
+section .cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 10px;
+    justify-content: space-between;
+
+}
+.services .card img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+   object-fit: cover;
+}
+section .Cards{
+     display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 10px;
+    justify-content: space-between;
+
+}
+section .Cards .Card{
+     background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc (100% / 3 - 30px);
+    text-align: center;
+
+}
+.Portfolio .Card img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+.Portfolio .Cards .Card {
+  padding: 0 0 20px;
+}
+
+.Cards .Card p {
+  padding: 0 15px;
+  margin-top: 5px;
+}
+.about .row {
+  padding: 0 10px;
+}
+
+
+.contact .row {
+  margin: 60px 0 90px;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .row .col {
+  padding: 0 10px;
+  width: calc(100% / 2 - 50px);
+}
+
+.contact .col p {
+  margin-bottom: 10px;
+}
+
+.contact .col p i {
+  color: #7a7a7a;
+  margin-right: 10px;
+}
+
+.contact form input {
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #bfbfbf;
+}
+
+.contact form textarea {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  height: 150px;
+  outline: none;
+  resize: vertical;
+  border: 1px solid #bfbfbf;
+}
+
+.contact form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #333;
+  transition: 0.2s ease;
+}
+
+.contact form button:hover {
+  background: #525252;
+}
+

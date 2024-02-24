@@ -1,0 +1,96 @@
+*{
+    background-image: url("Home-bg.jpg");
+}
+.navbar1{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: black;*/
+    background-color: black;
+}
+.navbar1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    background-color: black;
+
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+.content1 h1{
+    text-align: center;
+    text-decoration: none;
+    /*font-family: Algerian;*/
+    font-size: 50px;
+    color: white;
+}
+.content1 p{
+ text-decoration: white;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.navbar1 .content1 .btn a{
+    text-decoration: none;
+    background-color: white;
+    /*text-decoration-color: white;*/
+    font-weight: bold;
+    align-content: center;
+    align-items: center;
+    color: black;
+}
+.banner1{
+    background-image: url("home-bg.jpg");
+
+}
+
+
+
+.Form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner2 h2{
+    text-align: center;
+}
+.banner2 p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.banner3 h1{
+    text-align: center;
+}
+.banner3 p{
+    text-align:center ;
+}
+.Form{
+
+}
+
